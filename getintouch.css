@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-content {
+    display: flex;
+    margin-left: 100px;
+    gap: 30px;
+    flex-direction: column;   
+    margin-top: 20px;
+}
+
+.greeting {
+    font-size: 25px;
+    line-height: 30px;
+}
+

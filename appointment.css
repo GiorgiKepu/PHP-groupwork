@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.heading {
+    color: #00c6a9;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.heading  span {
+    color: black;
+}
+
+.reserve {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-weight: 400;
+}
+
+.main-appointed {
+    display: flex;
+    gap: 50px;
+}
+
+.appointed {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.appointed-head {
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+.appointed-part {
+    font-size: 18px;
+    margin-left: 150px;
+}
